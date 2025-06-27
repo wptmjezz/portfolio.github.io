@@ -1,4 +1,61 @@
-body {
-  background-color: #f0f0f0;
-  font-family: sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <ul class="nav">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#midterm">Midterm</a></li>
+      <li><a href="#finals">Finals</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="tab">
+    <div class="home-content">
+      <img src="your-photo.jpg" alt="Your Picture" class="profile-pic">
+      <h1>Your Name</h1>
+      <p>Welcome to my portfolio website!</p>
+    </div>
+  </section>
+
+  <section id="midterm" class="tab">
+    <h2>Midterm Projects</h2>
+    <div class="project-grid">
+      <div class="card">
+        <img src="preview1.jpg" alt="Project Screenshot">
+        <div class="card-body">
+          <h3>Midterm Project 1</h3>
+          <a href="midterm1.pdf" target="_blank">View Case Study</a>
+        </div>
+      </div>
+      <!-- Repeat card as needed -->
+    </div>
+  </section>
+
+  <section id="finals" class="tab">
+    <h2>Finals Projects</h2>
+    <div class="project-grid">
+      <div class="card">
+        <img src="preview2.jpg" alt="Project Screenshot">
+        <div class="card-body">
+          <h3>Final Project 1</h3>
+          <a href="final1.pdf" target="_blank">View Case Study</a>
+        </div>
+      </div>
+      <!-- Repeat card as needed -->
+    </div>
+  </section>
+
+  <section id="contact" class="tab">
+    <h2>Contact</h2>
+    <p>Email: your.email@example.com</p>
+    <p>Phone: +63 900 000 0000</p>
+  </section>
+</body>
+</html>
